@@ -27,6 +27,5 @@ public class ThirdPersonCameraController : MonoBehaviour
             _playerVisualTransform.forward = Vector3.Slerp(_playerVisualTransform.forward, inputDirection.normalized, Time.deltaTime * _rotationSpeed);
 
         }
-
     }
 }
