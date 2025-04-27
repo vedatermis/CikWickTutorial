@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _jumpCooldown;
     [SerializeField] private float _airMultiplier;
     [SerializeField] private float _airDrag;
-    [SerializeField] private bool _canJump = true;
+    [SerializeField] private bool _canJump;
 
     [Header("Ground Check Settings")]
     [SerializeField] private float _playerHeight;
