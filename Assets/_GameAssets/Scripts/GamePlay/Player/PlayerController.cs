@@ -190,4 +190,6 @@ public class PlayerController : MonoBehaviour
     {
         _jumpForce = _startingJumpForce;
     }
+
+    public Rigidbody GetPlayerRigitBody => _playerRigidbody;
 }
